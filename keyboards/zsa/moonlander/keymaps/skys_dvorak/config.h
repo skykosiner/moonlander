@@ -19,3 +19,11 @@
 #pragma once
 
 #define ORYX_CONFIGURATOR
+#define TAPPING_TERM 250
+#define QUICK_TAP_TERM 150
+
+// Set the maximum number of combos
+#define COMBO_COUNT 2
+
+// Optionally, set the tapping term for combos
+#define COMBO_TERM 200
