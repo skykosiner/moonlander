@@ -55,7 +55,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [BASE] = LAYOUT(
         KC_PIPE_GRAVE,  KC_PLUS_CUSTOM,    KC_BRACKET_LEFT,    KC_BRACE_LEFT,    KC_PAREN_LEFT,    KC_AMP_CUSTOM,    KC_VOLU,        KC_RGHT,  KC_EQUAL_CUSTOM,    KC_PAREN_RIGHT,    KC_BRACE_RIGHT,    KC_BRACKET_RIGHT,    KC_ASTR_CUSTOM,    KC_EXCL_PER,
-        KC_TAB,  KC_SEMICOLON,    KC_COMMA,    KC_DOT,    KC_P,    KC_Y,    KC_VOLD,                                                 TG(SYMB),       KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_BSLH_HASH,
+        KC_TAB,  KC_SEMICOLON,    KC_COMMA,    KC_DOT,    KC_P,    KC_Y,    KC_VOLD,                                                 TG(MDIA),       KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_BSLH_HASH,
         KC_LGUI, MT(MOD_LSFT, KC_A),            MT(MOD_LCTL, KC_O),        MT(MOD_LALT, KC_E),      MT(MOD_LGUI, KC_U),    KC_I,    KC_MUTE,                                                 KC_MUTE,        KC_D,    MT(MOD_RGUI, KC_H),   MT(MOD_RALT, KC_T),    MT(MOD_RCTL, KC_N),    MT(MOD_LSFT, KC_S), KC_MINUS,
         KC_ESC,  KC_QUOTE,        KC_Q,        KC_J,      KC_K,    KC_X,                                                             KC_B,           KC_M,    KC_W,    KC_V,    KC_Z, KC_RSFT,
     LT(SYMB,KC_GRV),KC_DGRAVE,A(KC_LSFT),KC_LEFT, KC_RGHT,  KC_LEFT_CTRL,                                                            KC_RIGHT_ALT,   KC_UP,   KC_DOWN, KC_SLASH, KC_AT_CAR, MO(SYMB),
